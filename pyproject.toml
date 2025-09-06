@@ -10,7 +10,7 @@ include = ["src/ai_terminal", "pyproject.toml", "README.md", "LICENSE"]
 
 [project]
 name = "intelligent-terminal"
-version = "0.1.0"
+version = "0.1.1"
 description = "AI-assisted terminal..."
 readme = "README.md"
 requires-python = ">=3.9"
