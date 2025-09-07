@@ -10,12 +10,21 @@ include = ["src/ai_terminal", "pyproject.toml", "README.md", "LICENSE"]
 
 [project]
 name = "intelligent-terminal"
-version = "0.1.1"
-description = "AI-assisted terminal..."
+version = "0.1.2"
+description = "AI-assisted terminal…"
 readme = "README.md"
 requires-python = ">=3.9"
-license = {text = "MIT"}
-authors = [{name = "1DigitalPartner"}]
-dependencies = ["prompt_toolkit>=3.0.48","rich>=13.7.1","pyyaml>=6.0.2"]
+license = { text = "MIT" }
+authors = [{ name = "1DigitalPartner" }]
+
+dependencies = [
+  "prompt_toolkit>=3.0.48",
+  "rich>=13.7.1",
+  "pyyaml>=6.0.2",
+  "openai>=1.43.0",
+  "typing_extensions>=4.10.0"
+]
+
 [project.scripts]
 intelligent-terminal = "ai_terminal.main:main"
+
